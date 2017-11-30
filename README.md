@@ -9,7 +9,7 @@ import rpc
 import time
 
 client_id = '1234567892138470' #Your application's client ID as a string. (This isn't a real client ID)
-RPC = rpcpy.DiscordRPC(client_id) #Send the client ID to the rpc module
+RPC = rpc.DiscordRPC(client_id) #Send the client ID to the rpc module
 RPC.start() #Start the RPC connection
 
 current_time = time.time()
